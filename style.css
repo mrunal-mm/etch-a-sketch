@@ -44,8 +44,14 @@ button{
 button:hover{
     transform: scale(1.1);
 }
+
 button:active{
     transform: scale(0.95);
+}
+
+.click-effect{
+    transform: scale(0.9);
+    border: 2px solid white;
 }
 
 /* GRID */
@@ -67,11 +73,7 @@ button:active{
 }
 
 .square:hover{
-    background-color: aqua;
-}
-
-.color{
-    background-color: aqua;
+    background-color: black;
 }
 
 /* FOOTER */
@@ -87,7 +89,6 @@ footer{
 }
 
 footer img{
-    margin-top: 10px;
     width: 25px;
 }
 
